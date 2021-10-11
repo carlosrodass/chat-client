@@ -2,7 +2,7 @@ const form = document.getElementById('form');
 
 
 //Permitiendo que el cliente se conecte a socket || Normalmente las peticiones se hacen con AJAX O FETCH
-const socket = io('https://chatbackcr.herokuapp.com', { 'forceNew': true });
+const socket = io('https://chat-server-cr.herokuapp.com', { 'forceNew': true });
 // const socket = io('http://localhost:3000', { 'forceNew': true });
 
 socket.on('connect', () => {
