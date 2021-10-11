@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Rokkitt:wght@100&display=swap');
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.content {
+    width: 50%;
+  
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #eee;
+    
+}
+#mensaje{
+    width: 100%;
+    max-height: 350px;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+}
+.message{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #0F3E40;
+}
+
+h1{
+    font-size: 6vh;
+    font-family: 'Rokkitt', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h3{ 
+    font-size: 4vh;
+    font-family: 'Rokkitt', serif;
+    color: white;
+}
+
+p{
+    font-size: 2vh;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+form input{
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 5px;
+    padding: 6px;
+}
+
+form button{
+
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    background-color: #70898a;
+    color: white;
+
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+
+    border-radius: 10px;
+    border: 1px solid beige;
+}
+
+form button:hover{
+    background-color: #0F3E40;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    .content {
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+        border: 1px solid #eee;
+        
+    }
+    #mensaje{
+        width: 100%;
+        overflow-y: scroll;
+        border: 1px solid #eee;
+    }
+    .message{
+        margin: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        background: #0F3E40;
+    }
+    
+    h1{
+        font-size: 3.5vh;
+        font-family: 'Rokkitt', serif;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    h3{ 
+        font-size: 3vh;
+        font-family: 'Rokkitt', serif;
+        color: white;
+    }
+    
+    p{
+        font-size: 1.5vh;
+        font-family: 'Julius Sans One', sans-serif;
+        color: white;
+    }
+    
+    form{
+        width: 100%;
+        padding: 20px;
+        overflow: hidden;
+    }
+    
+    form input{
+        width: 100%;
+    }
+    
+    form button{
+    
+        width: 100%;
+        height: auto;
+        padding: 4px;
+        background-color: #70898a;
+        color: white;
+    
+        font-family: 'Julius Sans One', sans-serif;
+        font-weight: bold;
+        font-size: 2vh;
+    
+        border-radius: 10px;
+        border: 1px solid beige;
+    }
+    
+  }

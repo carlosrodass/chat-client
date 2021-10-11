@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
+    <title>Chat con socket.io y NodeJs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://chatbackcr.herokuapp.com/socket.io/socket.io.js"></script>
+    <!-- <script type="text/javascript" src="http://localhost:3000/socket.io/socket.io.js"></script> -->
+    <script src="main.js" type="module" ></script>
+</head>
+
+<body>
+
+    <div class="content">
+        <h1>Bienvenido al chat!</h1>
+        <div id="mensaje">
+
+        </div>
+
+        <form id="form">
+            <input id="nickname" type="text" placeholder="nickname">
+            <input id="text" placeholder="Mensaje..."></input>
+            <button id="btn" type="submit" value="Enviar">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
